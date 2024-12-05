@@ -34,8 +34,6 @@ typedef struct binary_tree_s avl_t;
 typedef struct binary_tree_s heap_t;
 
 /* Binary Tree Print Functions */
-/* static int print_t(const binary_tree_t *tree, int offset, int depth, char **s)
-static size_t _height(const binary_tree_t *tree); */
 void binary_tree_print(const binary_tree_t *tree);
 
 /* Binary Tree Operations Functions */
