@@ -9,8 +9,8 @@
  */
 avl_t *find_min(avl_t *node)
 {
-       	while (node->left)
-	       	node = node->left;
+	while (node->left)
+		node = node->left;
 	return (node);
 }
 
